@@ -30,11 +30,15 @@ header {
     padding: 0px;
     margin-bottom: 30px;
 }
+
+footer {
+    margin: 0 50px;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 a {
@@ -371,7 +375,6 @@ a {
     border-radius: 20px 20px 0px 0px;
     border: 5px solid var(--White, #fff);
     object-fit: cover;
-    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
 }
 
 .hebergements-cards-card-info {
@@ -478,6 +481,117 @@ a {
     margin-bottom: 5px;
 }
 
+/************** activity ******************/
+
+.activity {
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.activity-title {
+    height: 30.019px;
+    align-self: stretch;
+    color: #000;
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.activity-cards {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+
+.activity-cards-card {
+    display: flex;
+    height: 439px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 20px;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.activity-cards-card-img {
+    height: 380px;
+    width: 100%;
+    flex-shrink: 0;
+    align-self: stretch;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.activity-cards-card-box {
+    display: flex;
+    padding: 20px 19px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 0px 0px 20px 20px;
+    background: var(--White, #fff);
+}
+
+.activity-cards-card-box-text {
+    align-self: stretch;
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+/*************** footer *****************/
+
+.footer {
+    display: flex;
+    align-items: flex-start;
+    align-self: stretch;
+    background: var(--Grey, #f2f2f2);
+}
+
+.footer-elems {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.footer-elems-title {
+    color: #000;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px;
+}
+
+.footer-elems-link {
+    color: #000;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0px;
+}
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
