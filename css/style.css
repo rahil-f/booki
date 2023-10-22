@@ -359,6 +359,7 @@ a {
 }
 
 .hebergements-cards-card {
+    min-width: 25%;
     display: flex;
     padding-bottom: 15px;
     flex-direction: column;
@@ -513,7 +514,6 @@ a {
 
 .activity-cards-card {
     display: flex;
-    height: 439px;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
