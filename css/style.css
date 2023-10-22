@@ -627,6 +627,10 @@ a {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activity-cards-card-img {
+        height: 200px;
+    }
 }
 
 /* Small devices (phones, less than 768px) */
